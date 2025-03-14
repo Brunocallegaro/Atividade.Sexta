@@ -1,0 +1,24 @@
+name: pedra_papel_tesoura
+description: Jogo de Pedra, Papel e Tesoura
+
+publish_to: 'none' # Descomente para publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependências adicionais
+  cupertino_icons: ^0.1.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/pedra.png
+    - assets/papel.png
+    - assets/tesoura.png
